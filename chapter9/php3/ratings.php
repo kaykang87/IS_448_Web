@@ -17,7 +17,7 @@
             (isset($userName) && (!empty($userName)))
             )
         {
-            if (preg_match("/^[A-Za-z\s*]+$/", $userName)){
+            if (preg_match("/^[A-z\s]+$/", $userName)){
                 echo "Valid User Name: $userName <br />";
     ?>
 
