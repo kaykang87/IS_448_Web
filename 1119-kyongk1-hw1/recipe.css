@@ -1,0 +1,39 @@
+/* Kyong Kang 
+    IS 448 MW 1-2:15pm 
+    External CSS to set styles for pie.html  */
+body {
+    background-color: white;
+    color: #404040;
+    font-size: 11pt;
+    font-family: Georgia, Garamond, serif;
+}
+h1 {
+    color: #A4A400;
+    background-color: #F0F0F0;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 22pt;
+    font-family: Georgia, Garamond, Verdana, sans-serif;
+}
+h2 {
+    color: #A4A400;
+    background-color: #F0F0F0;
+    text-align: left;
+    text-decoration: underline;
+    font-size: 18pt;
+    font-family: Georgia, Garamond, Verdana, sans-serif;
+}
+a {
+    color: #A4A400;
+}
+.userComments {
+    font-style: italic;
+    background-color: #FFFFC8;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#copyright {
+    width: 290px;
+    text-align: right;
+    font-family: monospace;
+}
