@@ -14,8 +14,7 @@
         $userName = $_POST["user_name"];
 
         if ((isset($movieName) && (!empty($movieName))) &&
-            (isset($userName) && (!empty($userName)))
-            )
+            (isset($userName) && (!empty($userName))))
         {
             if (preg_match("/^[A-z\s]+$/", $userName)){
                 echo "Valid User Name: $userName <br />";
