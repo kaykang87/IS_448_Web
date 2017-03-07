@@ -1,0 +1,40 @@
+body {
+    background-color: #607D8B;
+    color: black;
+    font-family: Georgia, Garamond, serif;
+    margin: 10px auto 10px auto;
+    border: 10px #D8C858 solid;
+}
+h1 {
+    text-align: center;
+}
+fieldset {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+}
+legend, caption {
+    font-weight: bold; 
+}
+table {
+    background-color: #9E9E9E;
+    margin: 10px auto 10px auto;
+}
+th, td {
+    text-align: left;
+    text-transform: uppercase;
+    border: 1px solid black;
+}
+th {
+    font-weight: bold;
+}
+#lightbulbPic {
+    height: 80px;
+    width: 15%;
+}
+#submitButton {
+    margin-left: 10px;
+}
+.endNote {
+    text-align: center;
+}

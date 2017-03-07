@@ -2,7 +2,7 @@
 
 <head>
     <title>Movie Rating Response</title>
-    <link rel="stylesheet" type="text/css" href="form_proc.css"/>
+    <link rel="stylesheet" type="text/css" href="hw2.css"/>
 </head>
 
 <body>

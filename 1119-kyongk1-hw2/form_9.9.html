@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Kyong Kang -->
+<!-- IS 448 MW 1-2:15pm -->
+
+<head>
+    <title>Light Bulb Purchase Form</title>
+    <link rel="stylesheet" type="text/css" href="hw2.css" />
+</head>
+
+<body>
+    <h1>Welcome to the lightbulb page <img id="lightbulbPic" src="hw2 files/lightbulb.png" alt="picture of lightbulb" />
+    </h1>
+
+
+    <form method="post" name="lightbulb" action="form_9.10.php">
+
+        <fieldset>
+            <legend>Enter Your Name: </legend>
+            <label>Name:
+                <input type="text" name="user_name" />
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Select Lightbulbs(You may select more than 1): </legend>
+            <label><input type="checkbox" name="option1" value="fourRegularBulb" />
+            4 x 25-watt light bulb for $2.39 <br/>
+            </label>
+            <label><input type="checkbox" name="option2" value="eightRegularBulb" /> 
+            8 x 25-watt light bulb for $4.29 <br/>
+            </label>
+            <label><input type="checkbox" name="option3" value="fourLongLifeBulb" />
+            4 x 25-watt long-life bulb for $3.95 <br/>
+            </label>
+            <label><input type="checkbox" name="option4" value="eightLongLifeBulb" />
+            8 x 25-watt long-life bulb for $7.49
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Method of Payment</legend>
+            <label><input type="radio" name="paymentMethod" value="visa" checked="checked"/>
+            Visa
+            </label>
+            <label><input type="radio" name="paymentMethod" value="mastercard" />
+            MasterCard
+            </label>
+            <label><input type="radio" name="paymentMethod" value="discover" />
+            Discover
+            </label>
+        </fieldset>
+        <p>
+            <input id="submitButton" type="submit" value="Submit" />
+        </p>
+    </form>
+    <p>
+        <a href="http://validator.w3.org/check?uri=https://swe.umbc.edu/~kyongk1/is448/1119-kyongk1-hw2/form_9.9.html">
+            <img src="hw2 files/valid-xhtml11.png" alt="Valid HTML5" /></a>
+        <a href="http://jigsaw.w3.org/css-validator/validator?uri=https://swe.umbc.edu/~kyongk1/is448/1119-kyongk1-hw2/form_9.9.html">
+            <img src="hw2 files/vcss.gif" alt="Valid CSS" /></a>
+    </p>
+</body>
+
+</html>
+
+<!--
+a. A text widget to collect the user’s name 
+
+b. Four checkboxes, one each for the following items: 
+i. Four 25-watt light bulbs for $2.39 
+ii. Eight 25-watt light bulbs for $4.29 
+iii. Four 25-watt long-life light bulbs for $3.95 
+iv. Eight 25-watt long-life light bulbs for $7.49
+
+c. A collection of three radio buttons that are labeled as follows: 
+i. Visa ii. Master Card iii. Discover
+-->
