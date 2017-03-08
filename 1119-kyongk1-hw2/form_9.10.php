@@ -11,15 +11,11 @@
     
     <?php
         $userName = $_POST["user_name"];
-        // $fourRegular = $_POST["option1"];
-        // $eightRegular = $_POST["option2"];
-        // $fourLong = $_POST["option3"];
-        // $eightLong = $_POST["option4"];
         $payment = $_POST["paymentMethod"];
         $total = 0;
         $afterTax = 0;
         $tax = 1.062;
-
+        // if-else statements to set price based on options selected
         if(isset($_POST["option1"])) {
             $fourRegularPrice = 2.39;
         } else {
@@ -51,6 +47,7 @@
         if (isset($userName) && (!empty($userName))) {
             if (preg_match("/^[A-z\s]+$/", $userName)) {
     ?>
+    <!-- HTML Table of Order Info -->
     <table>
         <caption>Order Information</caption>
         <tr>
@@ -75,6 +72,7 @@
         </tr>
     </table>
     <p></p>
+    <!-- HTML Table of Order Info -->
     <table>
         <tr>
             <th>Subtotal</th>
@@ -85,6 +83,11 @@
             <td><?php echo "\$".round($afterTax, 2) ?></td>
         </tr>
     </table>
+    <p class="endNote">
+    Thank you for your order <strong><?php echo $userName ?></strong>.<br />
+    Your order has been processed with your chosen payment method of 
+    <strong><?php echo "$payment" ?></strong>.
+    </p>
     <?php
             } else {
             echo "Please re-enter your username with alphabetical characters only. <br />";
@@ -99,11 +102,6 @@
     <?php
         }
     ?>
-    <p class="endNote">
-    Thank you for your order <strong><?php echo $userName ?></strong>.<br />
-    Your order has been processed with your chosen payment method of 
-    <strong><?php echo "$payment" ?></strong>.
-    </p>
     
     </p>
 </body>

@@ -15,7 +15,7 @@
             if ((isset($userName) && (!empty($userName))) &&
                 (isset($phoneNumber) && (!empty($phoneNumber))))
             {
-                    if (preg_match("/^[A-z\s]+$/", $userName) && (preg_match("/\d{3}-\d{3}-\d{4}/", $phoneNumber)))
+                    if (preg_match("/^[A-z\s]+$/", $userName) && (preg_match("/^\d{3}-\d{3}-\d{4}$/", $phoneNumber)))
                     {
         ?>
         <p class="endNote">
