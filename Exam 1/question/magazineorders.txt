@@ -1,0 +1,8 @@
+kyong,3011231234,1000 hilltop circle,national,sunday
+*************
+kyong,4431231234,1000 Hilltop Circle,national,sunday
+*************
+kyong,4431231234,1200 Hilltop Circle,national,weekly
+*************
+MyName,4430121234,5000 HillTop Circle,national,weekly
+*************

@@ -1,0 +1,57 @@
+<?xml version = "1.0"?>
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns = "http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Magazine order</title>
+	<link rel="stylesheet" type="text/css" href="form_proc.css">
+  
+  </head>
+  <body>
+	<h1>Magazines order form</h1>
+  <form name="magazin_order" action="order.php" method="POST">
+ 
+  <label>
+  Customer name: <input type="text" name="customer_name" />
+  </label>
+  <br /><br />
+
+  <label>
+  Customer phone: <input type="text" name="customer_number" />
+  </label>
+  <br /><br />
+
+  <label>
+  Customer address: <input type="text" name="customer_address" />
+  </label>
+  <br /><br />
+
+
+  <label>
+  Magazines ordering: 
+  <select name="magazine_type">
+			<option value="national">National Geographic</option>
+			<option value="time">Time</option>
+			<option value="forbes">Forbes</option>
+      <option value="money">Money</option>
+  </select>
+  </label>
+  <br />
+  <br />
+
+  <label>
+  Delivery schedule requested: 
+  <input type="radio" name="delivery_schedule" value="sunday"/> Sunday
+  <input type="radio" name="delivery_schedule" value="weekly"/> Weekly
+  </label>
+  <br /><br />
+
+  <label>
+  <input type="submit" id="submitButton" value="Submit request"/>
+  </label>
+
+  
+  </form>
+  </body>
+</html>
