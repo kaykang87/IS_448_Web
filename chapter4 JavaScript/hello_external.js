@@ -1,0 +1,1 @@
+document.write("Hello, fellow Web programmers!");
